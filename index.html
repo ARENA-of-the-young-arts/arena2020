@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <script type="text/javascript">
+    var i = 0;
+    var txt = 'NO DRAMA_ ';
+    var speed = 175;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("drama").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+  </script>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +35,7 @@
     Theatre and Performance 24th-28th of June 2020">
     <meta property="twitter:image" content="preview.png">
   </head>
-  <body onload="typeWriter()">
+  <body>
     <header>
       <header class="showcase">
         <div class="logo">
@@ -35,7 +48,7 @@
         </div>
         <div class="content">
           <div class="title" id="drama">
-
+            &nbsp;
           </div>
           <div class="date">
             24th-28th of June 2020
@@ -65,24 +78,8 @@
     </ul>
     <p>Impressum</p>
   </footer>
-
-    </header>
+  <script>
+    window.onload=setTimeout(typeWriter, 1000);
+  </script>
   </body>
-
-<script type="text/javascript">
-  var i = 0;
-  var txt = 'NO DRAMA_';
-  var speed = 175;
-
-  function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("drama").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-</script>
-
-
-
 </html>

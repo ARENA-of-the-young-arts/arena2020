@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ARENA 2020</title>
+  </head>
+  <body onload="typeWriter()">
+    <header>
+      <header class="showcase">
+        <div class="logo">
+          <div class="arena1">
+            ARENA
+          </div>
+          <div class="arena2">
+            30. Festival of Dance,<br>Theatre and Performance
+          </div>
+        </div>
+        <div class="content">
+          <div class="title" id="drama">
+
+          </div>
+          <div class="date">
+            24th-28th of June 2020
+          </div>
+          <div class="part">
+            be part of it
+          </div>
+          <div class="arrow">
+            <a href="#motto"><img src="arrow.svg" alt=""></a>
+          </div>
+        </div>
+      </header>
+
+  <section class="motto" id="motto">
+    <div class="container">
+      <p>
+        No Drama?  Geht es hier etwa nicht um Theater? <br> <br> ARENA wird 30. Drei Dekaden wurde Künstlerinnengruppen an wechselnden Spielstätten die Möglichkeit geboten, frei, expressiv und ohne Einschränkungen einer dramaturgischen Etikette ihre Beiträge zu dem Festival zuleisten. 30 Jahre lang stand Arena für: NO DRAMA. Unser diesjähriges Motto ist auf verschiedenen Ebenen zu verstehen. Während sich Konflikte in allen Aspekten der Alltagswelt kontinuierlich zuspitzen, gibt es kaum eine Entwicklung  mehr, die man nicht als dramatisch bezeichnen würde. No Drama, so scheint es, sagt nur jemand, der mit verschlossenen Augen durch das Leben geht. Aber im Theater hat wohl jeder gerne die Augen offen, schon gar wenn die Bühnenkunst sich rebellisch gegen alte Strukturen auflehnt, im Sinne der Postmoderne vollkommen neue Dinge ausprobiert und den Zuschauer zum Nachdenken anregt Seit jeher strömt das Publikum in die Spielhäuser, um sich inneren und äußeren Konflikten zu stellen und sich den Grenzen des eigenen Denkens und der eigenen Wahrnehmung bewusst zu werden. Klassische Dramaturgen verstanden es schon immer, die Zuschauer zu konfrontieren, wachzurütteln und reinzuwaschen. Nunmehr dreißig Jahre lang verfolgen wir nun die gleichen Ziele aber versuchen uns hierbei von ihren Regeln und Richtlinien zu lösen. Konnten wir das überhaupt oder waren wir selbst auch wie der typische Held eines griechischen Dramas unserer Hybris erlegen? So oder so wagen wir, Arena der jungen Künste 2020, es ein weiteres Mal den diesjährigen Künstlergruppen die Möglichkeit zu bieten, den Rahmen der dramaturgischen Zwänge zu sprengen. So wird es wohl jeder Inszenierung selbst vorbehalten bleiben, wie sie unser Motto auf der Bühne umsetzt.  Hinter „no drama“ steht unheilvoll ein Platzhalter für einen Addressaten, ein Thema, ein Lebensgefühl, eine Botschaft, ein Lieblingsessen. Von dem simplen und unbedarften „no drama llama“ über das familiäre „no drama mama“ bis hin zum polarisierenden „no drama Obama“ bleibt somit genug kreativer Freiraum, um den Konflikt zu beschwören oder ihn bewusst auszusparen.
+      </p>
+      <a href="https://docs.google.com/forms/d/1XQrfisJfm1pBdyxAInbXlC5UMhXbne1R_XwIo8eNoB8/" target="_blank" class="button">application form</a>
+      </div>
+  </section>
+  <footer>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/ARENAoftheyoungarts/" target="_blank"><img src="facebook.svg" alt="Facebook" class="icon"></a></li>
+      <li><a href="https://www.instagram.com/arenaoftheyoungarts/" target="_blank"><img src="instagram.svg" alt="Instagram" class="icon"></a></li>
+      <li><a href="https://twitter.com/ARENA_Festival" target="_blank"><img src="twitter.svg" alt="Twitter" class="icon"></a></li>
+    </ul>
+    <p>Impressum</p>
+  </footer>
+
+    </header>
+  </body>
+
+<script type="text/javascript">
+  var i = 0;
+  var txt = 'NO DRAMA_';
+  var speed = 200;
+
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("drama").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+</script>
+
+
+
+</html>

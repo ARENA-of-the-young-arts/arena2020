@@ -44,6 +44,10 @@ body{
   font-size: 6vw;
 }
 
+.logo .arena1 h1{
+  all: unset;
+}
+
 .logo .arena2{
   margin-top: -1vh;
   font-size: 1.9vw;

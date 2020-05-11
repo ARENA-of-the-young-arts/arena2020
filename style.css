@@ -112,6 +112,11 @@ body{
   margin-bottom: 5vh;
 }
 
+.motto .absage{
+  border: 5px solid #FFF;
+  padding: 5px;
+}
+
 .motto a {
   color: #FFF;
 }

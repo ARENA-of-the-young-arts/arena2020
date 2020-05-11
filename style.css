@@ -112,6 +112,10 @@ body{
   margin-bottom: 5vh;
 }
 
+.motto a {
+  color: #FFF;
+}
+
 .motto button {
   margin-top: 5vh;
   margin-left: auto;
